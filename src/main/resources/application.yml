@@ -1,0 +1,19 @@
+
+spring:
+  application:
+    name: ngrProjectDS
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+      use-new-id-generator-mappings: false
+  h2:
+    console:
+      enabled: true
+server:
+  port: 8082
+springdoc:
+  api-docs:
+    path: /app
+  swagger-ui:
+    path: /swagger-ui.html
